@@ -1,0 +1,368 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(140, 140, 233);
+}
+
+.back {
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin: 7%;
+}
+
+.sub-main .child {
+    width: 70%;
+    padding: 0% 2%;
+}
+
+.child h1 {
+    padding: 2% 3%;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.child p {
+    color: whitesmoke;
+    padding: 2% 3%;
+    font-size: 21px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.child button {
+    padding: 8px 12px;
+    font-size: 21px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid white;
+    margin: 3%;
+}
+
+.sub-main img {
+    height: 420px;
+    position: relative;
+    width: 420px;
+    margin: 0% -10%;
+    border-radius: 50%;
+    border: 8px solid white;
+    box-shadow: 0px 12px 7px 5px rgba(0, 0, 0, 0.364);
+
+}
+
+.project-btn {
+    display: flex;
+    justify-content: center;
+    width: 53%;
+}
+
+.project-btn button {
+    padding: 8px 12px;
+    font-size: 21px;
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid rgba(255, 255, 255, 0.674);
+    margin: 3%;
+}
+
+.project-btn button:hover {
+    border: 1px solid white;
+}
+
+.form-button {
+    padding: 8px 12px;
+    font-size: 21px;
+    background: white;
+    color: black;
+    border: none;
+}
+
+.project-img img {
+    height: 300px;
+    width: 550px;
+    /* padding: 2%; */
+    border: 1px solid white;
+}
+
+.project-info h1 {
+    font-size: 42px;
+    color: white;
+    font-weight: 500;
+    padding: 2% 8%;
+}
+
+.project-info p {
+
+    color: whitesmoke;
+    padding: 2% 8%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer .last {
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    margin: 0% auto;
+}
+
+.footer i a {
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.footer i {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer div {
+    display: flex;
+    width: 50%;
+    margin: 2% auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#skill {
+    color: white;
+    font-size: 40px;
+    padding-left: 9%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.slider {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+.slider-btn {
+    border: 1px solid white;
+    padding: 3px 9px;
+}
+
+.slider-img img {
+    width: 100%;
+    height: auto;
+}
+
+.slider-info p {
+    color: white;
+    font-size: 19px;
+    margin: 8px 0px;
+    font-weight: lighter;
+}
+
+.slider-info h4 {
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+}
+
+#testimonial {
+    width: 100%;
+    height: 400px;
+    margin: 2% auto;
+}
+
+.container2 {
+    margin: 0px auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn4 {
+    border-radius: 2px;
+    background: whitesmoke;
+    opacity: 0.5;
+    padding: 4px 12px;
+    margin: 2px;
+    border: 2px solid white;
+}
+
+.active {
+    opacity: 1;
+    background-color: white;
+}
+
+.testimonial {
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slide-row {
+    display: flex;
+    flex-direction: column;
+    height: 2400px;
+    transition: 0.5s;
+}
+
+.slide-col {
+    height: 400px;
+    width: 1000px;
+    position: relative;
+}
+
+.user-img img {
+    height: 110px;
+    width: 250px;
+}
+
+.user-text {
+    background: transparent;
+    border: 1px solid white;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 18px;
+}
+
+.user-text p {
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: white;
+    opacity: 0.8;
+    display: block;
+}
+
+.user-text h3 {
+    color: white;
+    display: block;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.hr {
+    width: 100%;
+    background-color: white;
+}
+
+.form {
+    margin: 2% 8%;
+}
+
+.form form .form-control {
+    display: block;
+    width: 70%;
+    font-size: 19px;
+    padding: 10px 16px;
+    outline: none;
+    color: white;
+    border: 1px solid white;
+    margin: 8px 0px;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+@media screen and (max-width:360px) {
+    .back {
+        width: 400px;
+        overflow-x: hidden;
+    }
+
+    .hr {
+        width: 200%;
+        background-color: white;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin: 2% auto;
+    }
+
+    .sub-main .child {
+        width: 100%;
+    }
+
+    .sub-main img {
+        height: 420px;
+        position: relative;
+        width: 320px;
+        margin: 10%;
+        border-radius: 50%;
+    }
+
+    #testimonial {
+        width: 100%;
+        height: 400px;
+        margin: 5% 1%;
+
+    }
+
+    .testimonial {
+        width: 380px;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .slide-col {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    .user-text {
+        background: transparent;
+        border: 1px solid white;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    .project-img img {
+        height: 250px;
+        width: 350px;
+        padding: 2% 3%;
+    }
+
+    .project-btn {
+        display: flex;
+        justify-content: center;
+        width: 53%;
+        margin-left: 7%;
+    }
+
+    .footer div {
+        display: flex;
+        width: 100%;
+        margin: 2% auto;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+}
